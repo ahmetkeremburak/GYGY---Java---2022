@@ -24,7 +24,7 @@ public class FlipMatrix_1 {
 		
 	}
 
-	// The variable matrix is twice transposed
+	// The variable matrix is twice flipped clockwise
 	private static int[][] arrayFlip(int[][] array) {
 		
 		int[][] arrayFlipped = new int[array.length][array[1].length];
