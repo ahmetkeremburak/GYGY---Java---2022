@@ -1,16 +1,17 @@
 ## Gençlere Yatırım Geleceğe Yazılım Java Bootcamp 2022
-  Merhaba!
-  Adım Kerem ve şu an gördüğün bu repo GYGY Java Bootcamp esnasında ilerlememi takip etmek, derslerimizin ardından hocam [Numan Karaaslan](https://github.com/numankaraaslan) tarafından bizlere yapılan meydan okumaları toparlamak için oluşturuldu.
+Merhaba!
+
+Adım Kerem ve şu an gördüğün bu repo GYGY Java Bootcamp esnasında ilerlememi takip etmek, derslerimizin ardından hocam [Numan Karaaslan](https://github.com/numankaraaslan) tarafından bizlere yapılan meydan okumaları toparlamak için oluşturuldu.
   
 ### [Challenge 1](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_1/src)
-- Kullanıcı tarafından yazılan metnin içindeki sesli harfleri uygun rakamlarla değiştirmek. 
+Kullanıcı tarafından yazılan metnin içindeki sesli harfleri uygun rakamlarla değiştirmek. 
 ```
  Ahmet Kerem Burak -> 1hm2t K2r2m B7r1k
 ```
-- Meydan okumanın istediklerinden biri farklı yapılar ile çözüm bulmaktı. Bu sebeple for ve while döngüleri, string.replace() methodu ve switch-case yapısıyla kurulmuş farklı çözümler dosyanın içinde bulunmaktadır.
+Meydan okumanın istediklerinden biri farklı yapılar ile çözüm bulmaktı. Bu sebeple for ve while döngüleri, string.replace() methodu ve switch-case yapısıyla kurulmuş farklı çözümler dosyanın içinde bulunmaktadır.
 
 ### [Challenge 2](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_2/src)
-- Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor.
+Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 - Flip Matrix 1:
 ```
 1 2 3      9 8 7
