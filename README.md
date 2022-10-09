@@ -1,6 +1,6 @@
 ## Gençlere Yatırım Geleceğe Yazılım Java Bootcamp 2022
   Merhaba!
-  Adım Kerem ve şu an gördüğün bu repo GYGY Java Bootcamp esnasında ilerlememi takip etmek, derslerimizin ardından [hocam](https://github.com/numankaraaslan) tarafından bizlere yapılan meydan okumaları toparlamak için oluşturuldu.
+  Adım Kerem ve şu an gördüğün bu repo GYGY Java Bootcamp esnasında ilerlememi takip etmek, derslerimizin ardından hocam [Numan Karaaslan](https://github.com/numankaraaslan) tarafından bizlere yapılan meydan okumaları toparlamak için oluşturuldu.
   
 ### [Challenge 1](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_1/src)
 - Kullanıcı tarafından yazılan metnin içindeki sesli harfleri uygun rakamlarla değiştirmek. 
