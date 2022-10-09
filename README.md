@@ -24,7 +24,7 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
  7 8 9      9 6 3
 ```
 - Zip:
-  - Verilen metnin adeta sıkıştırılmış bir versiyonu gibi her harfi ve metinde oldukları yerde kaç defa yazılacaklarının istenen şekilde kodlanması.
+  - Verilen metnin adeta sıkıştırılmış bir versiyonu gibi her harfin ve metinde oldukları yerde kaç defa yazılacaklarının istenen şekilde kodlanması.
 ```
  asdfffkee -> a1s1d1f3k1e2
 ```
