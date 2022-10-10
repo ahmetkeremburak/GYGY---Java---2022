@@ -31,7 +31,7 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
   
 ### [Challenge 3](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_3/src/ZipItUp)
   
-- Konsoldan girilen string içerisinde hangi harften kaç tane bulunduğunu ArrayList kullanarak sıralı bir şekilde yazmak
+- Konsoldan girilen string içerisinde hangi harften kaç tane bulunduğunu ArrayList ve Map kullanarak sıralı bir şekilde yazmak
 ```
  numan -> n2u1m1a1
 ```
