@@ -1,4 +1,4 @@
-package ZipItUp;
+package zipItUp;
 
 import java.util.ArrayList;
 import java.util.Iterator;
