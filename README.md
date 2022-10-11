@@ -2,14 +2,14 @@
 Merhaba!  
 Adım Kerem ve şu an gördüğün bu repo GYGY Java Bootcamp esnasında ilerlememi takip etmek, derslerimizin ardından hocam [Numan Karaaslan](https://github.com/numankaraaslan) tarafından bizlere yapılan meydan okumaları toparlamak için oluşturuldu.
   
-### [Challenge 1](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_1/src)
+### [Challenge 1](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_01/src)
 Kullanıcı tarafından yazılan metnin içindeki sesli harfleri uygun rakamlarla değiştirmek. 
 ```
  Ahmet Kerem Burak -> 1hm2t K2r2m B7r1k
 ```
 Meydan okumanın istediklerinden biri farklı yapılar ile çözüm bulmaktı. Bu sebeple for ve while döngüleri, string.replace() methodu ve switch-case yapısıyla kurulmuş farklı çözümler dosyanın içinde bulunmaktadır.
 
-### [Challenge 2](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_2/src)
+### [Challenge 2](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_02/src)
 Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 - Flip Matrix 1:
 ```
@@ -29,7 +29,7 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
  asdfffkee -> a1s1d1f3k1e2
 ```
   
-### [Challenge 3](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_3)
+### [Challenge 3](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_03)
   
 - Konsoldan girilen string içerisinde hangi harften kaç tane bulunduğunu ArrayList ve Map kullanarak sıralı bir şekilde yazmak
 ```
