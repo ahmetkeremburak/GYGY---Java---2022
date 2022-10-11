@@ -35,3 +35,7 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 ```
  numan -> n2u1m1a1
 ```
+
+### [Side Challange](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Simple%20Calculator)
+
+- Dört işlem yapabilecek bir class yazıp bu projenin diğer projelere eklenebilecek JAR dosyasını oluşturmak.
