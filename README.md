@@ -29,7 +29,7 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
  asdfffkee -> a1s1d1f3k1e2
 ```
   
-### [Challenge 3](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_03)
+### [Challenge 3](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_03/src/zipItUp)
   
 - Konsoldan girilen string içerisinde hangi harften kaç tane bulunduğunu ArrayList ve Map kullanarak sıralı bir şekilde yazmak
 ```
