@@ -17,6 +17,7 @@ public class AdanaKebap extends Kebap{
 	}
 	
 	public void lavasSar(boolean lavas) {
+		System.out.println("Güzelcene bir sar");
 		if(lavas) setKaloriPorsiyon(getKaloriPorsiyon() + 185);
 	}
 }
