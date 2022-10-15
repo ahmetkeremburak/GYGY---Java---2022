@@ -39,3 +39,9 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 ### [Side Challange](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Simple%20Calculator)
 
 - Dört işlem yapabilecek bir class yazıp bu projenin diğer projelere eklenebilecek JAR dosyasını oluşturmak.
+
+### [Challenge 4](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_04/src)
+
+- Bir inheritance örneğini java'da kodlamak.  
+
+
