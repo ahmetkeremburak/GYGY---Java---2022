@@ -1,4 +1,4 @@
-package yemekInheritance;
+package yemekler;
 
 public class AdanaKebap extends Kebap{
 	private boolean aci;

@@ -1,4 +1,4 @@
-package yemekInheritance;
+package yemekler;
 
 public class Yemek {
 	private float kaloriPorsiyon;

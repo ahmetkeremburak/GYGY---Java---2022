@@ -1,6 +1,6 @@
 package main;
 
-import yemekInheritance.AdanaKebap;
+import yemekler.AdanaKebap;
 
 public class Main {
 
