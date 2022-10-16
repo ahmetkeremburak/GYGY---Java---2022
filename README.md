@@ -42,6 +42,8 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 
 ### [Challenge 4](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_04/src)
 
-- Bir inheritance örneğini java'da kodlamak.  
+- Bir inheritance örneğini Java'da kodlamak.  
 
+### [Challenge 5](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_05/src)
 
+- Bir polymorphism örneğini Java'da kodlamak.
