@@ -1,6 +1,6 @@
 package sekiller;
 
-public abstract class sekil {
+public abstract class Sekil {
 	
 	public abstract double getAlan();
 	

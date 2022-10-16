@@ -1,6 +1,6 @@
 package sekiller;
 
-public class dörtgen extends sekil {
+public class Dörtgen extends Sekil {
 	private double yükseklik;
 	private double taban;
 	private double kisaKenar;

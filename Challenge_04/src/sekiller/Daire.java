@@ -1,6 +1,6 @@
 package sekiller;
 
-public class daire extends sekil{
+public class Daire extends Sekil{
 	private double yaricap;
 
 	public double getYaricap() {
