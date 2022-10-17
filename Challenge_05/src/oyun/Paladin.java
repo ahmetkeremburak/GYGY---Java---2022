@@ -16,7 +16,7 @@ public class Paladin extends Karakter implements BuyuKullanabilir, ZirhGiyebilir
 
 	@Override
 	public void kilicKusan() {
-		// TODO Auto-generated method stub
+		System.out.println("Belindeki kılıcı kavrar.");
 		
 	}
 

@@ -10,14 +10,13 @@ public class Fighter extends Karakter implements ZirhGiyebilir, AskeriSilahKulla
 
 	@Override
 	public int saldir() {
-		// TODO Auto-generated method stub
+		kilicSavur();
 		return 0;
 	}
 
 	@Override
 	public void kilicKusan() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("Sırtından kılıcını çeker.");
 	}
 
 	@Override
