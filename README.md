@@ -47,3 +47,11 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 ### [Challenge 5](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_05/src)
 
 - Bir polymorphism örneğini Java'da kodlamak.
+
+### [Challenge 6](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_06/src)
+
+- Bir reader extension 'ı yazılması gerekiyor. Dosyadaki bütün kelimeleri okuma yapabilmesi gerekiyor. Dosyadan istediğim satır numarasını okuyabilmesi gerekiyor. String 'lerin Split fonksiyonu kullanılmayacak. 
+```
+ArrayList<String> kelimeler = myReader.readWords("C:/dosya.txt");
+String satir = myReader.readLineAt(4);
+```
