@@ -20,13 +20,24 @@ private String file;
 	public ArrayList<String> readWords() {
 		ArrayList<String> words = new ArrayList<>();
 
-	    try (Scanner scan = new Scanner(new File(file))) {
+	    try {
+	    	Scanner scan = new Scanner(new File(file));
 	        while (scan.hasNext()) {
 	            words.add(scan.next());
 	        }
-	    } catch (Exception e) {
-	        System.out.printf("Caught Exception: %s%n", e.getMessage());
+	        scan.close();
+	    } 
+	    catch (FileNotFoundException e) {
+	        System.out.println("Caught Exception: " + e.getMessage());
 	        e.printStackTrace();
+	    }
+	    catch(IOException e){
+	    	System.out.println("Caught Exception: " + e.getMessage());
+	    	e.printStackTrace();
+	    }
+	    catch(NullPointerException e) {
+	    	System.out.println("Caught Exception: " + e.getMessage());
+	    	e.printStackTrace();
 	    }
 	    return words;
 	}
@@ -43,29 +54,32 @@ private String file;
 			br.close();
 		}
 		catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			System.out.println("Caught Exception: " + e.getMessage());
 			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		}
+		catch (IOException e) {
+			System.out.println("Caught Exception: " + e.getMessage());
 			e.printStackTrace();
 		}
 		
 		return lineDesired;
 	}
 	
-//	Return the number of total lines
+//	Returns the number of total lines
 	public int numberOfTotalLines() {
 		int total = 0;
 		try {
 			BufferedReader br = new BufferedReader(new FileReader(file));
-			
+			while(br.readLine() != null) {
+				total++;
+			}
 			br.close();
 
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
+			System.out.println("Caught Exception: " + e.getMessage());
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			System.out.println("Caught Exception: " + e.getMessage());
 			e.printStackTrace();
 		}
 		
