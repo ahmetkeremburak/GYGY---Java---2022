@@ -5,11 +5,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.turkcell</groupId>
-  <artifactId>Challenge_7</artifactId>
+  <artifactId>Challenge_07</artifactId>
   <version>1.0.0</version>
   <packaging>war</packaging>
 
-  <name>Challenge_7 Maven Webapp</name>
+  <name>Challenge_07 Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>https://localhost:8080/firstspringweb/hello</url>
 
@@ -45,11 +45,16 @@
     	<artifactId>jstl</artifactId>
     	<version>1.2</version>
     </dependency>
+    <dependency>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+    </dependency>
     
   </dependencies>
 
   <build>
-    <finalName>Challenge_7</finalName>
+    <finalName>Challenge_07</finalName>
 
       <plugins>
         
