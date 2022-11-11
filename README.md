@@ -55,3 +55,5 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 ArrayList<String> kelimeler = myReader.readWords("C:/dosya.txt");
 String satir = myReader.readLineAt(4);
 ```
+### Challenge 7
+- Bir Maven projesi oluşturup TomCat sunucusu üzerinden Spring Framework ile web uygulamasını ayağa kaldırmak.
