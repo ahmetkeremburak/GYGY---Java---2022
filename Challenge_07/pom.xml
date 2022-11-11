@@ -27,7 +27,7 @@
   </dependencies>
 
   <build>
-    <finalName>com.turkcell</finalName>
+    <finalName>Challenge_07</finalName>
     <pluginManagement>
     	<plugins>
         
