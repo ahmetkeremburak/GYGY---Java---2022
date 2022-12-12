@@ -34,10 +34,10 @@ public class ProposalService {
 	public Proposal approved(Long id) {
 		Proposal prop = getById(id);
 		prop.setApproved(true);
-		repo.saveAndFlush(prop);
-		entityManager.clear();
-		prop = repo.findById(id).get();
-		return prop;
+		Proposal prop1 = repo.save(prop);
+//		entityManager.clear();
+//		prop = repo.findById(id).get();
+		return prop1;
 	}
 
 	public Proposal createProposal(ProposalDto proposalDto) {
@@ -46,7 +46,7 @@ public class ProposalService {
 		prop.setProduct(proposalDto.getProduct());
 		prop.setPrice(proposalDto.getPrice());
 		prop.setNote(proposalDto.getNote());
-		repo.saveAndFlush(prop);
+		prop = repo.saveAndFlush(prop);
 		entityManager.clear();
 		prop = repo.findById(prop.getId()).get();
 //		prop = repo.getReferenceById(prop.getId());
@@ -56,5 +56,8 @@ public class ProposalService {
 //	public List<Proposal> getByUser(String name) {
 //		return repo.findByProposalLikeName(name);
 //	}
-
+//	
+	public List<Proposal> getByUser(String name) {
+		return repo.findByUser_NAME(name);
+	}
 }

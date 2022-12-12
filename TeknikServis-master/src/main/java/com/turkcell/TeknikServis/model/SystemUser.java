@@ -24,7 +24,7 @@ public class SystemUser
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long ID;
 
-//    @Column(length = 100)
+    @Column(length = 100)
     private String NAME;
 
 //    @Column(unique = true, nullable = false, length = 200)

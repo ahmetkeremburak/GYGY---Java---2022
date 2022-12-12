@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.turkcell.TeknikServis.dto.ProposalDto;
@@ -41,10 +42,10 @@ public class ProposalController {
 		return service.getById(id);
 	}
 	
-//	@GetMapping(path = "getByUserName/{name}")
-//	public List<Proposal> getByUser(@RequestParam(name = "name") String name){
-//		return service.getByUser(name);
-//	}
+	@GetMapping(path = "getByUser")
+	public List<Proposal> getByUser(@RequestParam(name = "name") String name){
+		return service.getByUser(name);
+	}
 	
 	@DeleteMapping(path = "deleteById/{id}")
 	public ResponseEntity<String> deleteById(@PathVariable(name = "id") Long id){
