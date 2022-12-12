@@ -55,5 +55,11 @@ Meydan okumanın dosyası içinde üç ayrı meydan okuma bulunuyor:
 ArrayList<String> kelimeler = myReader.readWords("C:/dosya.txt");
 String satir = myReader.readLineAt(4);
 ```
-### Challenge 7
+### [Challenge 7](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_07/src/main)
 - Bir Maven projesi oluşturup TomCat sunucusu üzerinden Spring Framework ile web uygulamasını ayağa kaldırmak.
+### [Challenge 8](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_08)
+- Spring Boot üzerinden JDBC kullanarak PostgreSQL'e bağlanan, öğrenciler, öğretmenler ve dersler üzerinde CRUD işlemleri yapan bir RESTful Service projesi.
+### [Challenge 9](https://github.com/ahmetkeremburak/GYGY---Java---2022/tree/main/Challenge_09)
+- Spring Boot üzerinden JPA ve Hibernate kullanarak PostgreSQL'e bağlanan, öğrenciler, öğretmenler ve dersler üzerinde CRUD işlemleri yapan bir RESTful Service projesi.
+### Teknik Servis
+- Proje tamamlandığında yazılacak.
