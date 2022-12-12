@@ -2,6 +2,7 @@ package com.turkcell.TeknikServis.controller;
 
 import java.util.List;
 
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +12,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.turkcell.TeknikServis.dto.ProposalDto;
 import com.turkcell.TeknikServis.model.Proposal;
+import com.turkcell.TeknikServis.service.ProposalDtoService;
 import com.turkcell.TeknikServis.service.ProposalService;
 
 import lombok.AllArgsConstructor;
@@ -21,11 +24,13 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class ProposalController {
 	
-	ProposalService service;
+	private ProposalService service;
 	
-	@PostMapping(path = "create")
-	public Proposal createProposal(@RequestBody Proposal proposal) {
-		return service.createProposal(proposal);
+//	private ProposalDtoService dtoService;
+	
+	@PostMapping(path = "create", consumes = MediaType.APPLICATION_JSON_VALUE)
+	public Proposal createProposal(@RequestBody ProposalDto proposalDto) {
+		return service.createProposal(proposalDto);
 	}
 	
 	@GetMapping(path = "getAll")
@@ -39,13 +44,18 @@ public class ProposalController {
 		return service.getById(id);
 	}
 	
+//	@GetMapping(path = "getByUserName/{name}")
+//	public List<Proposal> getByUser(@RequestParam(name = "name") String name){
+//		return service.getByUser(name);
+//	}
+	
 	@DeleteMapping(path = "deleteById/{id}")
 	public ResponseEntity<String> deleteById(@PathVariable(name = "id") Long id){
 		service.deleteById(id);
 		return ResponseEntity.ok("Teklif silindi.");
 	}
 	
-	@PostMapping(path = "approveById/{id}")
+	@PostMapping(path = "approve/{id}")
 	public Proposal approveById(@PathVariable(name = "id") Long id){
 		return service.approved(id);
 	}

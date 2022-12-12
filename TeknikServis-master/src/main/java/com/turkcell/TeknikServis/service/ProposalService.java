@@ -1,8 +1,12 @@
 package com.turkcell.TeknikServis.service;
 
 import java.util.List;
+
+import javax.persistence.EntityManager;
+
 import org.springframework.stereotype.Service;
 
+import com.turkcell.TeknikServis.dto.ProposalDto;
 import com.turkcell.TeknikServis.model.Proposal;
 import com.turkcell.TeknikServis.repo.ProposalRepo;
 
@@ -12,33 +16,45 @@ import lombok.AllArgsConstructor;
 @AllArgsConstructor
 public class ProposalService {
 
-	ProposalRepo repo;
+	private ProposalRepo repo;
+	private EntityManager entityManager;
 	
 	public List<Proposal> getAll() {
-		// Yapılan tüm teklifleri listeler
 		return repo.findAll();
 	}
 
 	public void deleteById(Long id) {
-		// TODO Auto-generated method stub
 		repo.deleteById(id);;
 	}
 
 	public Proposal getById(Long id) {
-		// TODO Auto-generated method stub
 		return repo.findById(id).get();
 	}
 
 	public Proposal approved(Long id) {
 		Proposal prop = getById(id);
 		prop.setApproved(true);
-		repo.save(prop);
-		return repo.getReferenceById(id);
+		repo.saveAndFlush(prop);
+		entityManager.clear();
+		prop = repo.findById(id).get();
+		return prop;
 	}
 
-	public Proposal createProposal(Proposal proposal) {
-		return repo.saveAndFlush(proposal);
-//		return repo.getReferenceById(proposal.getId());
+	public Proposal createProposal(ProposalDto proposalDto) {
+		Proposal prop = new Proposal();
+		prop.setUser(proposalDto.getUser());
+		prop.setProduct(proposalDto.getProduct());
+		prop.setPrice(proposalDto.getPrice());
+		prop.setNote(proposalDto.getNote());
+		repo.saveAndFlush(prop);
+		entityManager.clear();
+		prop = repo.findById(prop.getId()).get();
+//		prop = repo.getReferenceById(prop.getId());
+		return prop;
 	}
+
+//	public List<Proposal> getByUser(String name) {
+//		return repo.findByProposalLikeName(name);
+//	}
 
 }
