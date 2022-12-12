@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.turkcell.TeknikServis.dto.ProposalDto;
 import com.turkcell.TeknikServis.model.Proposal;
-import com.turkcell.TeknikServis.service.ProposalDtoService;
 import com.turkcell.TeknikServis.service.ProposalService;
 
 import lombok.AllArgsConstructor;
@@ -25,8 +24,6 @@ import lombok.AllArgsConstructor;
 public class ProposalController {
 	
 	private ProposalService service;
-	
-//	private ProposalDtoService dtoService;
 	
 	@PostMapping(path = "create", consumes = MediaType.APPLICATION_JSON_VALUE)
 	public Proposal createProposal(@RequestBody ProposalDto proposalDto) {
