@@ -13,9 +13,6 @@ import org.springframework.stereotype.Repository;
 
 import com.turkcell.challenge08.model.Ders;
 import com.turkcell.challenge08.model.DersDTO;
-import com.turkcell.challenge08.model.Konu;
-import com.turkcell.challenge08.model.Ogretmen;
-
 import lombok.AllArgsConstructor;
 
 @Repository
