@@ -65,4 +65,4 @@ String satir = myReader.readLineAt(4);
 - Spring Boot üzerinden JPA ve Hibernate kullanarak PostgreSQL'e bağlanan, öğrenciler, öğretmenler ve dersler üzerinde CRUD işlemleri yapan bir RESTful Service projesi.(Güncelleniyor. Model Mapper ve DTO'lar eklenecek)
 
 ### Teknik Servis
-- Spring Boot üzerinden JPA ve hibernate kullanılarak bilgisayar tamiri yapan ve ikinci el elektronik parça alım satımı yapan bir şirketin sitesinin back-end yapısı.(Şubat ayında baştan yapılandırma devam edecek)
+- Spring Boot üzerinden JPA ve hibernate kullanılarak bilgisayar tamiri yapan ve ikinci el elektronik parça alım satımı yapan bir şirketin sitesinin back-end yapısı.
