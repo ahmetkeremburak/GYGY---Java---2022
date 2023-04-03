@@ -2,15 +2,15 @@ package com.turkcell.challenge09.service.abstracts;
 
 import java.util.List;
 
+import com.turkcell.challenge09.models.dtos.student.request.StudentDto;
+import com.turkcell.challenge09.models.dtos.student.response.GetStudentDto;
+
 public interface StudentService {
-	List<StudentDto> getAll();
-	StudentDto getById(long id);
-	StudentDto getByName(String name);
-	StudentDto getByNumber(String number);
-	StudentDto save(StudentDto studentDto);
-	StudentDto update(StudentDto studentDto);
-	boolean delete(StudentDto studentDto);
-	
-	
-	
+	List<GetStudentDto> getAll();
+	GetStudentDto getById(long id);
+	GetStudentDto getByName(String name);
+	GetStudentDto getByNumber(String number);
+	GetStudentDto save(StudentDto studentDto);
+	GetStudentDto update(GetStudentDto GetStudentDto);
+	boolean delete(long id);
 }
